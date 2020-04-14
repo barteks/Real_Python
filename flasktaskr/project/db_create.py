@@ -12,9 +12,9 @@ with sqlite3.connect(DATABASE_PATH) as connection:
     # insert dummy data into the table
     cursor.execute(
     'INSERT INTO tasks (name, due_date, priority, status)'
-    'VALUES("Finish this tutorial", "03/25/2015", 10, 1)'
+    'VALUES("Finish this tutorial", "06/25/2020", 10, 1)'
     )
     cursor.execute(
     'INSERT INTO tasks (name, due_date, priority, status)'
-    'VALUES("Finish Real Python Course 2", "03/25/2015", 10, 1)'
+    'VALUES("Finish Real Python Course 2", "06/25/2020", 10, 1)'
     )
